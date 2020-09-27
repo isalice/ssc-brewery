@@ -50,7 +50,8 @@
     <developers>
         <developer>
             <name>John Thompson</name>
-            <organization>Spring Framework Guru</organization>        </developer>
+            <organization>Spring Framework Guru</organization>
+        </developer>
     </developers>
 
     <properties>
@@ -91,6 +92,10 @@
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter-security</artifactId>
+        </dependency>
+        <dependency>
+            <groupId>org.springframework.security</groupId>
+            <artifactId>spring-security-data</artifactId>
         </dependency>
         <dependency>
             <groupId>com.h2database</groupId>
@@ -145,7 +150,6 @@
             <artifactId>spring-security-test</artifactId>
             <scope>test</scope>
         </dependency>
-
     </dependencies>
 
     <build>
